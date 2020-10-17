@@ -1,0 +1,47 @@
+html,body {
+    height:100%;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+.addItem {
+    position:absolute;
+    bottom: 5px;
+}
+
+.wrapper {
+    background-color: #c8c8c8;
+    padding:5%;
+    height:100%;
+}
+.delete {
+    text-align:right;
+    color:red;
+}
+.delete:hover {
+    color:black;
+}
+.list {
+    padding:10px;
+    background-color:white;
+    border: 1px solid black; 
+    border-radius:5px;
+    position:relative;
+}
+table {
+    border-collapse:collapse;
+    margin-bottom:50px;
+    width:100%;
+}
+table td{
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.deletelist {
+    margin-left:30px;
+    background-color:#ffcccb;
+}
